@@ -5,7 +5,7 @@ Projeto da equipe **NextStage** para o **Challenge FIAP x JOVI 2026** — entreg
 O **Modo Aula** transforma a câmera do smartphone JOVI em uma ferramenta acadêmica: organiza fotos por matéria, extrai texto com OCR e ajuda na captura de lousas. Esta Sprint é a **evolução do mesmo projeto da Sprint 3**: a landing page e a área do aluno foram reescritas com **React Router** (rotas públicas e privadas), **Tailwind CSS**, **hooks customizados** e **consumo de API**.
 
 - **Repositório:** https://github.com/thiagoxzw/SPRINT4WEBFRONT
-- **Deploy na Vercel:** COLE_AQUI_O_LINK_DA_VERCEL
+- **Deploy na Vercel:** https://jovi-modo-aula-nextstage.vercel.app
 
 ---
 

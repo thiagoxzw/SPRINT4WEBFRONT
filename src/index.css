@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Identidade visual do JOVI Modo Aula (mesma paleta das Sprints 2 e 3) */
+@theme {
+  --color-navy: #0F1225;
+  --color-night: #1A1F3D;
+  --color-card: #1E2440;
+  --color-jovi-blue: #2563EB;
+  --color-jovi-teal: #0EA5E9;
+  --color-jovi-pink: #EC4899;
+  --color-jovi-green: #10B981;
+  --color-jovi-orange: #F97316;
+  --color-jovi-yellow: #F59E0B;
+  --color-jovi-red: #EF4444;
+
+  --font-sans: "Segoe UI", Calibri, system-ui, sans-serif;
+  --font-heading: "Segoe UI", "Arial Black", system-ui, sans-serif;
+
+  --animate-fade-in: fade-in 0.35s ease-out both;
+
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-white text-slate-800 antialiased; }
+  button { cursor: pointer; }
+  button:disabled { cursor: not-allowed; }
+}

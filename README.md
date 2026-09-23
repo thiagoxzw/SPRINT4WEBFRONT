@@ -122,7 +122,7 @@ Ao acessar uma rota privada sem login, o `ProtectedRoute` redireciona para `/log
 │   │   ├── layout/        # Header, Footer, Layout, Logo
 │   │   ├── ui/            # Button, Badge, Section, SectionHeader, StatCard, FormField, Alert, Spinner...
 │   │   └── *.jsx          # FeatureCard, ContentCard, Slideshow, Stats, HistoryList, StudyReferences...
-│   ├── context/           # AuthContext (Provider) e authContext (createContext)
+│   ├── context/           # AuthContext.jsx (Provider) e contexts.js (createContext)
 │   ├── data/              # Textos, funcionalidades, equipe e mapeamento de cores
 │   ├── hooks/             # Hooks customizados
 │   ├── pages/             # Home, About, Features, Contact, Login, Dashboard, ContentDetail, Profile, NotFound

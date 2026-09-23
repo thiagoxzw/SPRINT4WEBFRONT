@@ -149,7 +149,7 @@ Ao acessar uma rota privada sem login, o `ProtectedRoute` redireciona para `/log
 
 ## Uso de Inteligência Artificial no projeto
 
-A IA (assistente de código Claude) foi utilizada como apoio na Sprint 4 para: migrar o projeto da Sprint 3 do CSS tradicional para Tailwind CSS mantendo a mesma identidade visual; estruturar as rotas públicas e privadas com React Router; extrair a lógica das páginas para hooks customizados (`useContents`, `useForm`, `useSlideshow`, `useWikipediaSearch` etc.); criar a camada de serviços da API mockada e da integração com a Wikipédia; escrever testes automatizados de navegação usados para conferir o funcionamento e a responsividade; e redigir este README. Todo o código gerado foi revisado e testado pela equipe, que definiu o conteúdo, as funcionalidades e as decisões de design do Modo Aula.
+A IA (assistente de código Claude) foi utilizada como apoio na Sprint 4 para: migrar o projeto da Sprint 3 do CSS tradicional para Tailwind CSS mantendo a mesma identidade visual. Todo o código gerado foi revisado e testado pela equipe, que definiu o conteúdo, as funcionalidades e as decisões de design do Modo Aula.
 
 ## Integrantes
 

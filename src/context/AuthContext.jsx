@@ -1,5 +1,5 @@
 import { useCallback, useMemo } from 'react'
-import { AuthContext } from './authContext'
+import { AuthContext } from './contexts'
 import { useLocalStorage } from '../hooks/useLocalStorage'
 import * as authService from '../services/authService'
 

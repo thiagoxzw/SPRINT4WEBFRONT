@@ -3,5 +3,5 @@ export const team = [
   { name: 'MATHEUS AKIRA ASO', rm: 'RM 572830', role: 'Tech Lead & Desenvolvimento', color: 'pink' },
   { name: 'KELVYN LUKAS JUNQUEIRA DA SILVA', rm: 'RM 572950', role: 'Desenvolvimento & UX', color: 'green' },
   { name: 'THIAGO SOUZA DE LIMA', rm: 'RM 568732', role: 'Product & Pesquisa', color: 'teal' },
-  { name: 'GUILERME KOOJI KUBOTA', rm: 'RM 570541', role: 'Design & Prototipação', color: 'orange' },
+  { name: 'GUILHERME KOOJI KUBOTA', rm: 'RM 570541', role: 'Design & Prototipação', color: 'orange' },
 ]

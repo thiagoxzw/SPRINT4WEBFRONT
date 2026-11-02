@@ -79,7 +79,7 @@ export default function PublicoAlvo() {
               raramente volta a ele. Estuda à noite e, quando trava em uma questão, perde tempo pesquisando em várias abas.
             </p>
             <p className="mt-3 text-slate-600">
-              Lucas quer entender o conteúdo rápido e ter tudo em um só lugar. A câmera JOVI com o modo ESTUDO foi pensada para ele.
+              Lucas quer entender o conteúdo rápido e ter tudo em um só lugar. A câmera JOVI com o modo AULA foi pensada para ele.
             </p>
           </div>
           <div className="grid gap-4">

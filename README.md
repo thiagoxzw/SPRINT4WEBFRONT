@@ -86,6 +86,7 @@ Para voltar ao estado inicial dos dados, limpe o `localStorage` do site (DevTool
 | `/funcionalidades` | Pública | Funcionalidades + slideshow |
 | `/contato` | Pública | Formulário de contato com validação |
 | `/login` | Somente visitantes | Login (usuário logado é redirecionado ao painel) |
+| `/publico-alvo` | Pública | Público-alvo do projeto, persona e dores dos estudantes |
 | `/meu-modo-aula` | **Privada** | Central de conteúdo (CRUD na API, busca, filtros, lixeira, histórico, matérias) |
 | `/meu-modo-aula/conteudo/:id` | **Privada** | Detalhe do conteúdo: edição de anotações + busca na Wikipédia |
 | `/perfil` | **Privada** | Dados do usuário, preferências do Modo Aula e logout |

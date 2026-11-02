@@ -14,7 +14,7 @@ const links = [
 ]
 
 const linkClass = ({ isActive }) =>
-  `block border-b-2 py-2 text-sm font-medium transition md:py-1 ${isActive ? 'border-jovi-teal text-white' : 'border-transparent text-slate-400 hover:text-white'}`
+  `block whitespace-nowrap border-b-2 py-2 text-sm font-medium transition md:py-1 ${isActive ? 'border-jovi-teal text-white' : 'border-transparent text-slate-400 hover:text-white'}`
 
 export default function Header() {
   const { user, isAuthenticated, logout } = useAuth()
@@ -55,7 +55,7 @@ export default function Header() {
           id="menu-principal"
           className={`${menu.on ? 'block' : 'hidden'} absolute inset-x-0 top-full border-t border-white/10 bg-navy px-4 pb-4 md:static md:block md:border-0 md:p-0`}
         >
-          <ul className="flex flex-col gap-1 md:flex-row md:items-center md:gap-6 lg:gap-8">
+          <ul className="flex flex-col gap-1 md:flex-row md:items-center md:gap-3 lg:gap-6 xl:gap-8">
             {links.map((link) => (
               <li key={link.to}>
                 <NavLink to={link.to} end={link.end} className={linkClass}>

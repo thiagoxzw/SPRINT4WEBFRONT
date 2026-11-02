@@ -4,6 +4,7 @@ import ProtectedRoute from './routes/ProtectedRoute'
 import GuestRoute from './routes/GuestRoute'
 import Home from './pages/Home'
 import About from './pages/About'
+import PublicoAlvo from './pages/PublicoAlvo'
 import Features from './pages/Features'
 import Contact from './pages/Contact'
 import Login from './pages/Login'
@@ -19,6 +20,7 @@ export default function App() {
         {/* Rotas públicas */}
         <Route index element={<Home />} />
         <Route path="sobre" element={<About />} />
+        <Route path="publico-alvo" element={<PublicoAlvo />} />
         <Route path="funcionalidades" element={<Features />} />
         <Route path="contato" element={<Contact />} />
 

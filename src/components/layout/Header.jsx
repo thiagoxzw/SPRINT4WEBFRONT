@@ -7,6 +7,7 @@ import { useToggle } from '../../hooks/useToggle'
 const links = [
   { to: '/', label: 'Início', end: true },
   { to: '/sobre', label: 'Sobre' },
+  { to: '/publico-alvo', label: 'Público-Alvo' },
   { to: '/funcionalidades', label: 'Funcionalidades' },
   { to: '/contato', label: 'Contato' },
   { to: '/meu-modo-aula', label: 'Meu Modo Aula', private: true },
